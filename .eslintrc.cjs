@@ -15,7 +15,9 @@ const config = {
       rules:{
         "@typescript-eslint/restrict-template-expressions": "off",
         "@typescript-eslint/no-unsafe-assignment":"off",
-        "@typescript-eslint/no-floating-promises":"off"
+        "@typescript-eslint/no-floating-promises":"off",
+        "@typescript-eslint/no-unsafe-return":"off",
+        "react-hooks/exhaustive-deps":"off"
       }
     },
   ],
