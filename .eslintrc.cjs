@@ -14,7 +14,8 @@ const config = {
       },
       rules:{
         "@typescript-eslint/restrict-template-expressions": "off",
-        "@typescript-eslint/no-unsafe-assignment":"off"
+        "@typescript-eslint/no-unsafe-assignment":"off",
+        "@typescript-eslint/no-floating-promises":"off"
       }
     },
   ],
