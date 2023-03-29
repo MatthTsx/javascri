@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .inte-input{
+        @apply outline-none bg-transparent border-b mx-2 text-center w-fit shadow-2xl;
+    }
+    .jss{
+        @apply w-[50%] h-[50%] bg-blue-500 p-4
+    }
+    .btn{
+        @apply text-white w-16 h-16 rounded-full transition-all duration-300 relative left-0
+    }
+}
+@layer base {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
