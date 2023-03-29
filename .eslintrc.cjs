@@ -12,6 +12,10 @@ const config = {
       parserOptions: {
         project: path.join(__dirname, "tsconfig.json"),
       },
+      rules:{
+        "@typescript-eslint/restrict-template-expressions": "off",
+        "@typescript-eslint/no-unsafe-assignment":"off"
+      }
     },
   ],
   parser: "@typescript-eslint/parser",
@@ -29,8 +33,6 @@ const config = {
       },
     ],
     "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
-    "@typescript-eslint/restrict-template-expressions": "off",
-    "@typescript-eslint/no-unsafe-assignment":"off"
   },
 };
 
